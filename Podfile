@@ -36,6 +36,8 @@ target 'RequestToolRN' do
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
   target 'RequestToolRNTests' do
     inherit! :search_paths
     # Pods for testing
