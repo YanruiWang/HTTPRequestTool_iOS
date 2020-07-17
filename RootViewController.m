@@ -28,7 +28,7 @@ RCT_EXPORT_MODULE();
   [super viewDidLoad];
   NSURL *jsCodeLocation;
 #if DEBUG
-  jsCodeLocation = [NSURL URLWithString:@"http://192.168.1.148:8081/index.bundle?platform=ios"];
+  jsCodeLocation = [NSURL URLWithString:@"http://10.0.0.7:8081/index.bundle?platform=ios"];
 #else
   jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 #endif
