@@ -243,7 +243,7 @@ PODS:
     - React-cxxreact (= 0.62.0)
     - React-jsi (= 0.62.0)
     - ReactCommon/callinvoker (= 0.62.0)
-  - RNCPicker (1.6.3):
+  - RNCPicker (1.6.6):
     - React
   - RNGestureHandler (1.5.0):
     - React
@@ -371,10 +371,10 @@ SPEC CHECKSUMS:
   React-RCTText: 91a0d0ae5434aa28fe0c89c03eb9d660ff53bd9b
   React-RCTVibration: 0630aeb11e22f87c180ca9c0c3a0a0aba780cc62
   ReactCommon: d22162ab8f1358c53dfcd0f9c4d82d38facdbc48
-  RNCPicker: 1c63b084bcbcd33d159a83144543f3bda4cd1793
+  RNCPicker: 494015f2b7ec4bee5484b6f235aa19691426dcdb
   RNGestureHandler: a4ddde1ffc6e590c8127b8b7eabfdade45475c74
   Yoga: 9db9ff2025ad21d1ac0a8b3c85d5ac4e7c29d525
 
-PODFILE CHECKSUM: a55ae1158e911894286337539199f264fd426cf9
+PODFILE CHECKSUM: 1eef8444fafffc92d2ff43429df8c7de85c7afae
 
 COCOAPODS: 1.9.3

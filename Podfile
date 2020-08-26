@@ -1,8 +1,9 @@
-platform :ios, '11.0'
+platform :ios, '12.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'RequestToolRN' do
-  # Pods for RequestToolRN
+target 'RequestTool' do
+  # Pods for RequestTool
+  use_frameworks!
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -40,7 +41,7 @@ target 'RequestToolRN' do
 
   pod 'RNCPicker', :path => '../node_modules/@react-native-community/picker'
 
-  target 'RequestToolRNTests' do
+  target 'RequestToolTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -48,12 +49,3 @@ target 'RequestToolRN' do
   use_native_modules!
 end
 
-target 'RequestToolRN-tvOS' do
-  # Pods for RequestToolRN-tvOS
-
-  target 'RequestToolRN-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-end
