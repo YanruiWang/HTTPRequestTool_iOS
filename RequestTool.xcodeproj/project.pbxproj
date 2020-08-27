@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7E713BF424F6690600D29E1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E713BF324F6690600D29E1F /* AppDelegate.swift */; };
 		7E713BF824F6690600D29E1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E713BF724F6690600D29E1F /* ViewController.swift */; };
-		7E713BFB24F6690600D29E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E713BF924F6690600D29E1F /* Main.storyboard */; };
 		7E713BFD24F6690700D29E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E713BFC24F6690700D29E1F /* Assets.xcassets */; };
 		7E713C0024F6690700D29E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E713BFE24F6690700D29E1F /* LaunchScreen.storyboard */; };
 		7E713C0B24F6690800D29E1F /* RequestToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E713C0A24F6690800D29E1F /* RequestToolTests.swift */; };
@@ -39,10 +38,9 @@
 		01DD9727C704B257C73D559E /* Pods-RequestTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RequestTool.debug.xcconfig"; path = "Target Support Files/Pods-RequestTool/Pods-RequestTool.debug.xcconfig"; sourceTree = "<group>"; };
 		0E053DFAAF6A0EB3D1E47C1F /* Pods_RequestToolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RequestToolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7152D4569136FAA0001E4C7D /* Pods-RequestTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RequestTool.release.xcconfig"; path = "Target Support Files/Pods-RequestTool/Pods-RequestTool.release.xcconfig"; sourceTree = "<group>"; };
-		7E713BF024F6690600D29E1F /* RequestTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RequestTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E713BF024F6690600D29E1F /* WYRRequestTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYRRequestTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E713BF324F6690600D29E1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E713BF724F6690600D29E1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7E713BFA24F6690600D29E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E713BFC24F6690700D29E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E713BFF24F6690700D29E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E713C0124F6690700D29E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,7 +106,7 @@
 		7E713BF124F6690600D29E1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E713BF024F6690600D29E1F /* RequestTool.app */,
+				7E713BF024F6690600D29E1F /* WYRRequestTool.app */,
 				7E713C0624F6690800D29E1F /* RequestToolTests.xctest */,
 				7E713C1124F6690800D29E1F /* RequestToolUITests.xctest */,
 			);
@@ -120,7 +118,6 @@
 			children = (
 				7E713BF324F6690600D29E1F /* AppDelegate.swift */,
 				7E713BF724F6690600D29E1F /* ViewController.swift */,
-				7E713BF924F6690600D29E1F /* Main.storyboard */,
 				7E713BFC24F6690700D29E1F /* Assets.xcassets */,
 				7E713BFE24F6690700D29E1F /* LaunchScreen.storyboard */,
 				7E713C0124F6690700D29E1F /* Info.plist */,
@@ -154,7 +151,6 @@
 				8620B1A2E76FC1DF36E84B47 /* Pods-RequestToolTests.debug.xcconfig */,
 				A7DDAC910B59016EDC87004B /* Pods-RequestToolTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -177,7 +173,7 @@
 			);
 			name = RequestTool;
 			productName = RequestTool;
-			productReference = 7E713BF024F6690600D29E1F /* RequestTool.app */;
+			productReference = 7E713BF024F6690600D29E1F /* WYRRequestTool.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7E713C0524F6690800D29E1F /* RequestToolTests */ = {
@@ -267,7 +263,6 @@
 			files = (
 				7E713C0024F6690700D29E1F /* LaunchScreen.storyboard in Resources */,
 				7E713BFD24F6690700D29E1F /* Assets.xcassets in Resources */,
-				7E713BFB24F6690600D29E1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,14 +388,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7E713BF924F6690600D29E1F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E713BFA24F6690600D29E1F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7E713BFE24F6690700D29E1F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -540,7 +527,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanrui.RequestTool;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WYRRequestTool;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -560,7 +547,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanrui.RequestTool;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WYRRequestTool;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
